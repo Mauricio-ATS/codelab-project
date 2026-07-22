@@ -1,0 +1,16 @@
+{
+    "Informacoes":{
+        "Grupo":"PET",
+        "Subtitulo":"Grupo extracurricular focado na realização de pesquisas, atividades de extensão e trabalho de auxílio à graduação",
+        "Sobre":["O PET é um grupo exracurricular sediado na SUP São Carlos, dedicado ao desenvolvimento de atividades tanto em prol do público externo quanto do interno. O grupo foi idealizado pelo MEC para que os alunos pudessem se desenvolver além do conhecimento técnico da graduação, garantindo a criação de pessoas com maior pensamento crítico e atividade social. Dessa forma, o grupo se estrutura de maneira horizontal, em que nenhum aluno possui qualquer posição de hierarquia sobre os demais."
+        "Nossa conexão com o público se dá por meio de nossa alta gama de projetos. Seja por nossas aulas dedicadas à uma grande diversidade de público, desde aulas destinadas ao ensino fundamental até os graduandos da própria USP; seja por nossas atividades sociais, com arrecadações e visitas à locais necessitados. Além disso os integrantes do grupo sempre procuram aumentar seu conhecimento por meio da realização de pesquisas e proejtos pessoais envolvendo o conteúdo da graduação."]
+    },
+    "Frentes":{
+        "Codifique":"Frente dedicada à ministração de aulas para alunos do ensino médio interessados em programação. Linguagem usada é Python por sua simplicidade. O objetivo do projeto é despertar a curiosidade dos alunos na área de informática e abrir uma janela de oportunidades nova para eles.",
+        "Codifikids":"Frente destinada à realização de aulas para estudantes do ensino fundamental com foco no aprendizado de lógica de programação com a utilização de Scratch para facilitar a compreensão dos alunos com a programção em blocos.",
+        "Overclock":"Frente criada para os recém-ingressantes dos cursos de BCC, BSI e BCDados. A frente busca auxiliar os estudantes que chegarama sem conhecimento prévio sobre programação. As aulas servem como um complemento ao contéudo passado em sala.",
+        "Social":"Frente focada na realização de atividades sociais. Já organizou dezenas de eventos importantes para o público são carlense, como doações de sangue, dias de arrecadação e a famosa Caminhada Solidária, em que um grupo de estudantes saem às ruas em bairros específicos pedindo por doações em diversas casas.",
+        "Pesquisa":"Uma das frentes mais recentes do PET. Foi idealizada com o próposito de desenvolver pesquisas de acordo com o interesse dos integrantes. No ano passado realizou pesquisas referentes à grupos de extensão sobre o mercado de trabalho para os estudantes após formatura.",
+        "Cartilha":"Essa frente foi além do PET. No ano passado o grupo criou a primeira cartilha para o BCC da USP de São Carlos, para nortear os estudos dos alunos. Esse ano a cartilha foi passada para um maior escopo e pretende expandir para todo o ICMC. Uma iniciativa que começou com uma ideia no PET."
+    }
+}

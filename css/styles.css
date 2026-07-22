@@ -1,0 +1,133 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.site-header {
+    background-color: #ffffff;
+    color: rgb(26, 25, 25);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    padding-left: 80px;
+    gap: 15px;
+}
+
+.texto-logo {
+    display: flex;
+    flex-direction: column;
+    line-height: 1.1; 
+}
+
+.logo h1 {
+    margin: 0;
+    color: #060606;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.logo span {
+    font-size: 14px;
+    color: #2e2b2b;
+}
+
+.navigation ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.navigation li {
+    margin-left: 20px;
+}
+
+.navigation a {
+    color: #7da666;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.navigation a:hover {
+    color: #5c8247;
+}
+
+.conteudo-principal {
+    background-color: azure;
+}
+
+.banner-container {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+.banner-img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.banner-degrade {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 50%;
+    background: linear-gradient(to bottom, rgba(125, 166, 102, 0) 0%, rgba(125, 166, 102, 1) 100%);
+    
+    pointer-events: none; 
+}
+.banner-texto {
+    position: absolute;
+    bottom: 8%; 
+    left: 50%;
+    transform: translateX(-50%);
+    color: #ffffff;
+    text-align: center;
+    z-index: 2; 
+    width: 90%;
+}
+
+.banner-texto h2 {
+    margin: 0;
+    font-size: 32px;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+}
+
+.site-footer {
+    background-color: #ffffff;
+    color: rgb(26, 25, 25);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 80px;
+}
+
+.info-footer {
+    display: flex;
+    align-items: center;
+    gap: 30px
+}
+
+.info-footer a {
+    color: #7da666;
+    font-size: 24px;
+    transition: color 0.3s;
+}
+
+.info-footer a:hover {
+    color: #0056b3;
+}
+
+.logo-footer {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}

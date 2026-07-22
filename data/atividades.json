@@ -1,0 +1,26 @@
+{
+    "atuais": [
+        {
+            "nome": "CODIFIKIDS",
+            "descricao": "..."
+        },
+        {
+            "nome": "Overclock",
+            "descricao": "..."
+        }
+    ],
+    "proximas": [
+        {
+            "nome": "Processo seletivo",
+            "inicio": "20/03",
+            "fim": "20/04",
+            "imagem": "https://imagem-da-noticia.jpg"
+        },
+        {
+            "nome": "Processo seletivo",
+            "inicio": "20/03",
+            "fim": "20/04",
+            "imagem": "https://imagem-da-noticia.jpg"
+        }
+    ]
+}
