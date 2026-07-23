@@ -1,0 +1,24 @@
+{
+    "responsavel": {
+        "nome": "Educardo do Vale Simões",
+        "imagem": "https:/imagem-simoes.jpeg"
+    },
+    "membros": [
+        {
+            "nome": "João da Silva",
+            "imagem": "..."
+        },
+         {
+            "nome": "João da Silva",
+            "imagem": "..."
+        },
+         {
+            "nome": "João da Silva",
+            "imagem": "..."
+        },
+         {
+            "nome": "João da Silva",
+            "imagem": "..."
+        }
+    ]
+}

@@ -1,0 +1,96 @@
+.site-footer {
+    background-color: #f0f0f0;
+    color: rgb(26, 25, 25);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 200px;
+    padding: 30px 80px;
+}
+
+/* ---------- Bloco: logo + redes sociais ---------- */
+.info-footer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+}
+
+.linha-footer {
+    width: 100%;
+    text-align: left;
+    color: #7da666;
+}
+
+.redes-sociais {
+    display: flex;
+    gap: 10px;
+}
+
+.redes-sociais a {
+    background-color: #7da666;
+    color: #ffffff;
+    width: 36px;
+    height: 36px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    transition: background-color 0.3s;
+}
+
+.redes-sociais a:hover {
+    background-color: #5c8248;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.texto-logo h1 {
+    color: #4a7a3d;
+    font-size: 28px;
+    margin: 0;
+    line-height: 1;
+}
+
+.texto-logo span {
+    color: #4a7a3d;
+    font-size: 16px;
+}
+
+/* ---------- Bloco: contato ---------- */
+.contato-footer {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.contato-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+}
+
+.contato-item i {
+    color: #4a7a3d;
+    font-size: 20px;
+    margin-top: 2px;
+}
+
+.contato-item span {
+    font-size: 14px;
+    color: #333;
+    max-width: 220px;
+}
+
+/* ---------- Blocos: logos ICMC / USP ---------- */
+.logo-footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

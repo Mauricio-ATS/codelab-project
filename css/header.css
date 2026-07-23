@@ -1,0 +1,61 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.site-header {
+    background-color: #ffffff;
+    color: rgb(26, 25, 25);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+}
+
+/* Bloco: Logo & Icone do PET */
+.logo {
+    display: flex;
+    align-items: center;
+    padding-left: 80px;
+    gap: 15px;
+}
+
+.texto-logo {
+    display: flex;
+    flex-direction: column;
+    line-height: 1.1; 
+}
+
+.logo h1 {
+    margin: 0;
+    color: #060606;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.logo span {
+    font-size: 14px;
+    color: #2e2b2b;
+}
+
+/* Bloco: Menu de Paginas */
+.navigation ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.navigation li {
+    margin-left: 20px;
+}
+
+.navigation a {
+    color: #7da666;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.navigation a:hover {
+    color: #5c8247;
+}
