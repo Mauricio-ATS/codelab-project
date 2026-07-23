@@ -1,5 +1,7 @@
+---
+---
 document.addEventListener("DOMContentLoaded", () => {
-    fetch("/data/atividades.json")
+    fetch("{{ site.baseurl }}/data/atividades.json")
         .then(response => response.json())
         .then(dados => {
             renderizarAtuais(dados.atuais);
@@ -30,13 +32,14 @@ function renderizarAtuais(atuais) {
 
 function renderizarProximas(proximas) {
     const container = document.getElementById("proximas-lista");
+    const baseurl = "{{ site.baseurl }}";
 
     proximas.forEach(atividade => {
         const item = document.createElement("div");
         item.className = "atividade-proxima";
 
         item.innerHTML = `
-            <img src="${atividade.imagem}" alt="${atividade.nome}">
+            <img src="${baseurl}${atividade.imagem}" alt="${atividade.nome}">
             <h3>${atividade.nome}</h3>
             <span>${atividade.inicio} - ${atividade.fim}</span>
         `;
